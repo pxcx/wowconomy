@@ -1,11 +1,11 @@
 export default {
   language: 'pt-BR',
 
-  appTitle: 'WoW Auction Search',
+  appTitle: 'WoWConomy',
 
   searchBox: {
     text: 'Type a item name to search it on US-Azralon Auction House',
-    buttonText: 'Search',
+    inputPlaceholder: 'e.g. Borean Leather, Iron Ore, etc...',
   },
 
   resultGrid: {
