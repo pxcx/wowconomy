@@ -19,7 +19,7 @@ const SearchBox: React.FC<DispatchProps> = ({ searchItem }) => {
       <Row>
         <SearchInput 
           onChange={event => searchItem(event.target.value) }
-          placeholder="e.g. Benediction"
+          placeholder={strings.searchBox.inputPlaceholder}
         />
       </Row>
     </Container>
