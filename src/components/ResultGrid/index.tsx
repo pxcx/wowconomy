@@ -2,7 +2,6 @@ import React from "react";
 import { connect } from "react-redux";
 import { bindActionCreators, Dispatch } from "redux";
 import { ApplicationState } from "../../store";
-import { Animated } from "react-animated-css";
 
 import { Auction } from "../../store/ducks/auctions/types";
 import * as AuctionsActions from "../../store/ducks/auctions/actions";
@@ -13,7 +12,6 @@ import { CenterText, Icon, SilverIcon, GoldIcon } from "../../styles/global";
 import {
   ResultCard,
   Container,
-  SearchWrapper,
   Details,
   Large,
   Small,

@@ -25,10 +25,6 @@ export const Container = styled.div`
   }
 `;
 
-export const SearchWrapper = styled.div`
-  height: 100%;
-`;
-
 export const LargeCell = styled(TableCell)`
   overflow: hidden;
   font-size: 18px;
