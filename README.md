@@ -13,10 +13,11 @@ Built with: [React](https://reactjs.org), [Redux](https://redux.js.org), [Typesc
 **Status:** Under development.
 
 **Features**
-- [x] :new: Item Search: Allows users to search for a specific item in the auctions list.
-- [ ] :new: Realm Selection: Allows users to select a realm to load actions list.
+- [x] Item Search: Allows users to search for a specific item in the auctions list. :new:
+- [ ] Realm Selection: Allows users to select a realm to load actions list. :new:
 
 **Last production build:** [https://wowconomy.pxcx.com.br](https://wowconomy.pxcx.com.br).
+
 **Last development build:** [https://wowconomy-dev.pxcx.com.br](https://wowconomy-dev.pxcx.com.br).
 
 ![App Screen](https://wowconomy.pxcx.com.br/screens/wowconomy_0_001.png)
