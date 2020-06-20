@@ -25,7 +25,9 @@ const reducer: Reducer<AuctionsState> = (state = INITIAL_STATE, action) => {
           return action.payload === '' ? INITIAL_STATE : { 
             ...state,
             data: state.data.filter(item => 
-              (item.itemName.search(action.payload) !== -1) ? true : false
+              (item.itemName.toLowerCase().search(
+                action.payload.toLowerCase()
+              ) !== -1) ? true : false
             )
           };
     default:
