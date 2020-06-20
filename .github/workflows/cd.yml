@@ -36,4 +36,4 @@ jobs:
         ftp-server: ftp://ftp.pxcx.com.br/wowconomy
         ftp-username: ${{ secrets.FTP_USER }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-idr: build/
+        local-dir: build
