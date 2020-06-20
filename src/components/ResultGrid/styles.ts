@@ -9,6 +9,7 @@ export const Container = styled.div`
   margin: 20px;
   height: 71vh;
   overflow-y: auto;
+  padding: 0 14px;
   ::-webkit-scrollbar-thumb {
     background: #666;
   }
