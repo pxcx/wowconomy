@@ -1,70 +1,71 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import { TableCell, TableCellTitle } from '../../styles/global';
+import { TableCell, TableCellTitle } from "../../styles/global";
 
 export const appearDuration = 500;
 export const transitionName = `example`;
 
 export const Container = styled.div`
   margin: 20px;
-  &.item-enter {
-    opacity: 0;
+  height: 71vh;
+  overflow-y: auto;
+  ::-webkit-scrollbar-thumb {
+    background: #666;
   }
-  &.item-enter-active {
-    opacity: 1;
-    transition: opacity 500ms ease-in;
+  ::-webkit-scrollbar {
+    width: 5px;
   }
-  &.item-exit {
-    opacity: 1;
+
+  ::-webkit-scrollbar-track {
+    background: #ddd;
   }
-  &.item-exit-active {
-    opacity: 0;
-    transition: opacity 500ms ease-in;
+
+  ::-webkit-scrollbar-thumb {
+    background: #666;
   }
 `;
 
-export const LargeCell = styled(TableCell) `
+export const LargeCell = styled(TableCell)`
   overflow: hidden;
   font-size: 18px;
   width: 54%;
 `;
 
-export const SmallCell = styled(TableCell) `
+export const SmallCell = styled(TableCell)`
   text-align: center;
   overflow: hidden;
   font-size: 18px;
   width: 15%;
 `;
 
-export const LargeCellTitle = styled(TableCellTitle) `
+export const LargeCellTitle = styled(TableCellTitle)`
   text-align: center;
   width: 69%;
 `;
 
-export const SmallCellTitle = styled(TableCellTitle) `
+export const SmallCellTitle = styled(TableCellTitle)`
   text-align: center;
   width: 15%;
 `;
 
-export const ResultCard = styled.div `
+export const ResultCard = styled.div`
   width: 100%;
   max-width: 500px;
   padding: 12px;
   margin: 25px auto;
   border-radius: 5px;
-  box-shadow: 0px 0px 12px 0.5px #CCC;
+  box-shadow: 0px 0px 12px 0.5px #ccc;
   display: flex;
   transition: box-shadow 1s, color 1s;
-  
 
   &:hover {
-    color: ${props => props.theme.colors.secondary};
+    color: ${(props) => props.theme.colors.secondary};
     box-shadow: 0px 0px 12px 0.5px #333;
     cursor: pointer;
   }
 `;
 
-export const Details = styled.div `
+export const Details = styled.div`
   padding: 0px 5px;
   width: 100%;
   height: 64px;
@@ -73,14 +74,14 @@ export const Details = styled.div `
   justify-content: space-between;
 `;
 
-export const Large = styled.div `
+export const Large = styled.div`
   width: 100%;
   font-size: 18px;
   font-weight: bold;
   align-self: flex-start;
 `;
 
-export const Small = styled.div `
+export const Small = styled.div`
   width: 100%;
   margin-top: 5px;
   font-size: 14px;
@@ -89,15 +90,13 @@ export const Small = styled.div `
   align-self: flex-end;
 `;
 
-export const Text = styled.div `
+export const Text = styled.div`
   flex-grow: 1;
 `;
 
-export const Price = styled(Text) `
+export const Price = styled(Text)`
   text-align: right;
   display: flex;
   justify-content: flex-end;
   font-weight: bold;
 `;
-
-
