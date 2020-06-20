@@ -27,7 +27,7 @@ jobs:
         ftp-server: ftp://ftp.pxcx.com.br/wowconomy-dev
         ftp-username: ${{ secrets.FTP_USER }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-idr: ./build/
+        local-dir: build
 
     - name: Deploy Production
       if: github.ref == 'refs/heads/master'
