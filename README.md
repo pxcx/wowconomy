@@ -9,8 +9,6 @@ with information and knowlodge about the Auction House.
 **Last production build:** [https://wowconomy.pxcx.com.br](https://wowconomy.pxcx.com.br).  
 **Last development build:** [https://wowconomy-dev.pxcx.com.br](https://wowconomy-dev.pxcx.com.br).
 
-**Built with:** [React](https://reactjs.org), [Redux](https://redux.js.org), [Typescript](https://www.typescriptlang.org) and [Styled-Components](https://styled-components.com). :heart:
-
 ## Current Version: 0.001 (a.k.a 1st Increment)
 
 **Status:** Under development.
@@ -20,3 +18,5 @@ with information and knowlodge about the Auction House.
 - [ ] Realm Selection: Allows users to select a realm to load actions list.
 
 ![App Screen](https://wowconomy.pxcx.com.br/screens/wowconomy_0_001.png)
+
+**Built with:** [React](https://reactjs.org), [Redux](https://redux.js.org), [Typescript](https://www.typescriptlang.org) and [Styled-Components](https://styled-components.com). :heart:
